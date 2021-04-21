@@ -1,0 +1,34 @@
+/* -------------------  MOBILE  --------------------- */
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial;
+  min-height: 100vh;
+}
+
+#btn {
+  display: inline-block;
+  background: #ccc;
+  padding: 0.8em;
+  margin: 1.2em auto;
+  transition: ease 0.3s all;
+}
+
+header {
+  /* header styles */
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+footer {
+  /* footer styles */
+}
